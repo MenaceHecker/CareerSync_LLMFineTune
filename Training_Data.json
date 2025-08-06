@@ -1,0 +1,122 @@
+[
+  {
+    "input": "Analyze resume vs job description:\nRESUME: Software Engineer with 3 years Python, Django, React experience. Built scalable web applications. AWS deployment experience.\nJOB: Looking for Frontend Developer with React, JavaScript, CSS expertise. 2+ years experience required.",
+    "output": {
+      "match_score": 75,
+      "matched_skills": ["React", "3 years experience"],
+      "missing_skills": ["CSS expertise", "JavaScript focus"],
+      "recommendations": ["Highlight JavaScript skills", "Add CSS projects to portfolio"],
+      "role_alignment": "Good - has React experience but lacks frontend focus"
+    }
+  },
+  {
+    "input": "Analyze resume vs job description:\nRESUME: Marketing Manager, 5 years digital marketing, Google Ads, SEO, content strategy. Led campaigns generating $2M revenue.\nJOB: Senior Marketing Manager needed. 4+ years experience, PPC advertising, analytics, team leadership required.",
+    "output": {
+      "match_score": 90,
+      "matched_skills": ["5 years experience", "Google Ads (PPC)", "proven results"],
+      "missing_skills": ["analytics tools mention", "team leadership examples"],
+      "recommendations": ["Emphasize team leadership experience", "Add specific analytics tools used"],
+      "role_alignment": "Excellent - strong experience match with proven results"
+    }
+  },
+  {
+    "input": "Analyze resume vs job description:\nRESUME: Recent CS graduate, internship at tech startup, Java, C++, data structures knowledge. Personal projects in mobile app development.\nJOB: Entry-level Data Scientist position. Python, machine learning, statistics background preferred. PhD preferred but not required.",
+    "output": {
+      "match_score": 35,
+      "matched_skills": ["technical background", "programming experience"],
+      "missing_skills": ["Python", "machine learning", "statistics", "data science projects"],
+      "recommendations": ["Learn Python and ML frameworks", "Complete data science courses", "Build ML portfolio projects"],
+      "role_alignment": "Poor - different specialization, needs significant reskilling"
+    }
+  },
+  {
+    "input": "Analyze resume vs job description:\nRESUME: UX Designer, 4 years experience, Figma, Sketch, user research, wireframing, prototyping. Worked with cross-functional teams.\nJOB: UX/UI Designer position. 3+ years experience, design tools proficiency, user research skills, collaboration with developers required.",
+    "output": {
+      "match_score": 95,
+      "matched_skills": ["4 years experience", "Figma/Sketch", "user research", "cross-functional collaboration"],
+      "missing_skills": [],
+      "recommendations": ["Perfect match - apply immediately", "Prepare portfolio showcasing user research process"],
+      "role_alignment": "Perfect - exact skill and experience match"
+    }
+  },
+  {
+    "input": "Analyze resume vs job description:\nRESUME: Project Manager with Agile, Scrum Master certification, 6 years managing software projects, stakeholder communication, budget management.\nJOB: Technical Product Manager role. 3+ years product management, user story writing, roadmap planning, technical background helpful.",
+    "output": {
+      "match_score": 70,
+      "matched_skills": ["6 years management experience", "Agile methodology", "stakeholder communication"],
+      "missing_skills": ["product management focus", "user story writing", "roadmap planning"],
+      "recommendations": ["Highlight any product-focused projects", "Learn product management frameworks", "Emphasize user-focused achievements"],
+      "role_alignment": "Good - transferable skills but needs product management focus"
+    }
+  },
+  {
+    "input": "Analyze resume vs job description:\nRESUME: DevOps Engineer, Docker, Kubernetes, Jenkins, AWS, 4 years automating deployments, monitoring systems, CI/CD pipelines.\nJOB: DevOps Engineer needed. Container technologies, cloud platforms, automation tools, monitoring experience. 3+ years required.",
+    "output": {
+      "match_score": 98,
+      "matched_skills": ["Docker/Kubernetes", "AWS cloud", "Jenkins automation", "CI/CD pipelines", "monitoring", "4 years experience"],
+      "missing_skills": [],
+      "recommendations": ["Excellent match - emphasize specific achievements", "Quantify improvements made to deployment processes"],
+      "role_alignment": "Excellent - perfect technical and experience match"
+    }
+  },
+  {
+    "input": "Analyze resume vs job description:\nRESUME: Sales Representative, 2 years B2B sales, CRM systems, cold calling, relationship building. Exceeded targets by 120%.\nJOB: Business Development Manager position. 5+ years sales experience, enterprise clients, strategic partnerships, MBA preferred.",
+    "output": {
+      "match_score": 45,
+      "matched_skills": ["B2B sales experience", "CRM knowledge", "proven results"],
+      "missing_skills": ["5+ years experience", "enterprise client experience", "strategic partnership skills", "MBA"],
+      "recommendations": ["Gain more sales experience", "Focus on larger enterprise deals", "Consider pursuing MBA or business development courses"],
+      "role_alignment": "Moderate - good foundation but needs more seniority"
+    }
+  },
+  {
+    "input": "Analyze resume vs job description:\nRESUME: Data Analyst, SQL, Python, Tableau, Excel, 3 years analyzing customer data, creating dashboards, statistical analysis.\nJOB: Data Analyst role. SQL, data visualization tools, statistical analysis, business intelligence. 2+ years experience required.",
+    "output": {
+      "match_score": 92,
+      "matched_skills": ["SQL", "Python", "Tableau", "statistical analysis", "3 years experience", "dashboard creation"],
+      "missing_skills": [],
+      "recommendations": ["Highlight specific business impact of analyses", "Prepare examples of complex SQL queries and visualizations"],
+      "role_alignment": "Excellent - strong technical skills match with relevant experience"
+    }
+  },
+  {
+    "input": "Analyze resume vs job description:\nRESUME: Graphic Designer, Adobe Creative Suite, brand identity, print design, 3 years agency experience, client presentations.\nJOB: Digital Marketing Designer. Web design, social media graphics, email campaigns, HTML/CSS knowledge preferred. 2+ years experience.",
+    "output": {
+      "match_score": 65,
+      "matched_skills": ["Adobe Creative Suite", "3 years experience", "client interaction"],
+      "missing_skills": ["web design focus", "social media design", "email campaign design", "HTML/CSS"],
+      "recommendations": ["Build portfolio of digital marketing designs", "Learn basic HTML/CSS", "Create social media design examples"],
+      "role_alignment": "Good - design skills transfer but needs digital marketing focus"
+    }
+  },
+  {
+    "input": "Analyze resume vs job description:\nRESUME: Customer Success Manager, 4 years client retention, onboarding, SaaS platforms, Salesforce, reduced churn by 30%.\nJOB: Customer Success Manager position. 3+ years experience, SaaS background, client onboarding, retention strategies, data analysis skills.",
+    "output": {
+      "match_score": 88,
+      "matched_skills": ["4 years experience", "SaaS background", "client onboarding", "retention focus", "Salesforce", "proven results"],
+      "missing_skills": ["data analysis skills emphasis"],
+      "recommendations": ["Highlight data analysis used in retention strategies", "Prepare specific examples of successful client outcomes"],
+      "role_alignment": "Excellent - strong match with proven customer success results"
+    }
+  },
+  {
+    "input": "Analyze resume vs job description:\nRESUME: Mobile App Developer, Swift, iOS development, App Store publications, 2 years experience, UI/UX collaboration.\nJOB: Full Stack Developer needed. JavaScript, Node.js, React, database management, 3+ years experience required.",
+    "output": {
+      "match_score": 25,
+      "matched_skills": ["programming experience", "UI collaboration"],
+      "missing_skills": ["JavaScript", "Node.js", "React", "database management", "3+ years experience", "web development"],
+      "recommendations": ["Learn web development technologies", "Build full-stack projects", "Consider bootcamp or additional training"],
+      "role_alignment": "Poor - completely different technology stack required"
+    }
+  },
+  {
+    "input": "Analyze resume vs job description:\nRESUME: Financial Analyst, Excel, financial modeling, budget analysis, 3 years investment banking, CFA Level 1.\nJOB: Senior Financial Analyst. 5+ years experience, advanced Excel, financial planning, forecasting, team leadership preferred.",
+    "output": {
+      "match_score": 72,
+      "matched_skills": ["Excel expertise", "financial modeling", "budget analysis", "CFA qualification"],
+      "missing_skills": ["5+ years experience", "forecasting emphasis", "team leadership"],
+      "recommendations": ["Highlight forecasting projects", "Emphasize any mentoring or training experience", "Consider pursuing CFA Level 2"],
+      "role_alignment": "Good - strong technical skills but needs more seniority"
+    }
+  }
+]
